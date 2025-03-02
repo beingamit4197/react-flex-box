@@ -41,6 +41,12 @@ export default App;
 
 The `Grid` component is a container for rows and columns.
 
+**Props:**
+
+- `children`: The content of the grid.
+- `fluid`: If true, the grid will take up the full width of its container.
+- `className`: Additional CSS classes to apply to the grid.
+
 ### Row
 
 The `Row` component is a flex container for columns.
