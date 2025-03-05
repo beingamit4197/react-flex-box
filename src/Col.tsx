@@ -20,14 +20,16 @@ export const Col: React.FC<ColProps> = ({
   className,
 }) => {
   const colClasses = [
-    xs ? `col-xs-${xs}` : "",
-    sm ? `col-sm-${sm}` : "",
-    md ? `col-md-${md}` : "",
-    lg ? `col-lg-${lg}` : "",
-    xl ? `col-xl-${xl}` : "",
+    xs ? `beingamit4197-col-xs-${xs}` : "",
+    sm ? `beingamit4197-col-sm-${sm}` : "",
+    md ? `beingamit4197-col-md-${md}` : "",
+    lg ? `beingamit4197-col-lg-${lg}` : "",
+    xl ? `beingamit4197-col-xl-${xl}` : "",
   ].join(" ");
 
   return (
-    <div className={`col ${colClasses} ${className || ""}`}>{children}</div>
+    <div className={`beingamit4197-col ${colClasses} ${className || ""}`}>
+      {children}
+    </div>
   );
 };

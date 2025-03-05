@@ -13,11 +13,15 @@ export const Row: React.FC<RowProps> = ({
   align,
   className,
 }) => {
-  const justifyClass = justify ? `justify-${justify}` : "";
-  const alignClass = align ? `align-${align}` : "";
+  const justifyClass = justify ? `beingamit4197-justify-${justify}` : "";
+  const alignClass = align ? `beingamit4197-align-${align}` : "";
 
   return (
-    <div className={`row ${justifyClass} ${alignClass} ${className || ""}`}>
+    <div
+      className={`beingamit4197-row ${justifyClass} ${alignClass} ${
+        className || ""
+      }`}
+    >
       {children}
     </div>
   );

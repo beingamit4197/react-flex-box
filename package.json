@@ -1,6 +1,6 @@
 {
   "name": "@beingamit4197/react-flex-box",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A flexible grid layout for React",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

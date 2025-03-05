@@ -9,7 +9,11 @@ interface GridProps {
 
 export const Grid: React.FC<GridProps> = ({ children, fluid, className }) => {
   return (
-    <div className={`grid ${fluid ? "grid-fluid" : ""} ${className || ""}`}>
+    <div
+      className={`beingamit4197-grid ${
+        fluid ? "beingamit4197-grid-fluid" : ""
+      } ${className || ""}`}
+    >
       {children}
     </div>
   );
